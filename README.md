@@ -13,7 +13,7 @@ A simple weather application built with React.js. Enter a city name, and it disp
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SamirTaous/weather-app.git
+   git clone https://github.com/SamirTaous/forcastly-weatherapp.git
    ```
 2. Navigate to the project folder:
    ```bash
