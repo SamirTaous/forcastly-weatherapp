@@ -5,9 +5,9 @@ import City from './components/City'
 
 function App() {
   const [city,setCity]=useState({
-    name: 'Manchester',
-    temp: 20,
-    condition: 'Clear'
+    name: 'Marrakech',
+    temp: '',
+    condition: '', 
   });
   const apiKey='e3fe0229f98158a27b24c54610ee785a';
   useEffect(() => {
@@ -34,7 +34,7 @@ function App() {
     };
 
     fetchWeatherData();
-  }, []);
+  }, [city.name]);
 
   const setBackgroundColor=(condition)=>{
     let color;
@@ -48,12 +48,12 @@ function App() {
   }
 
   const setCityName=(name)=>{
-    console.log(name);
+    setCity({name: name})
   };
 
   return (
     <div className='container' style={{backgroundColor:setBackgroundColor(city.condition)}}>
-      <Header onAdd={setCityName}/>
+      <Header onSet={setCityName}/>
       <City city={city}/>
     </div>
   )
