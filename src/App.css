@@ -1,0 +1,55 @@
+body{
+    margin: auto;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    height: 18%;
+}
+
+.logo{
+    width:60%;
+    margin: 20px 20px;
+}
+
+.logo-box{
+    width: 30%;
+}
+
+.container{
+    margin: 20px 100px;
+    padding: 10px 20px;
+    max-width: 500px;
+    height: 400px;
+    max-height: 800px;
+    background-color:#00d994c5;
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 3%;
+}
+
+.search-bar{
+    margin-top: 25px;
+    margin-right: 10px;
+    width: 70%;
+    border: solid 2px black;
+    display: flex;
+}
+
+
+.form-control{
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    height:95%;
+    width: 70%;
+    border: none;
+}
+
+.send-button{
+    margin: 0;
+    height: 100%;
+    width: 30%;
+    border: none;
+}
