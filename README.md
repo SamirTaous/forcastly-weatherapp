@@ -1,7 +1,3 @@
-Here’s a simple and clear README for your weather app:
-
----
-
 # Weather App 🌦️
 
 A simple weather application built with React.js. Enter a city name, and it displays the current weather, including temperature and conditions.  
