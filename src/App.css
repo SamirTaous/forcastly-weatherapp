@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
 
 
-body{
-    margin: auto;
-    justify-content: center;
-    font-family: 'Oswald';
+body {
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    font-family: 'Oswald', sans-serif; 
 }
 
 .header{
